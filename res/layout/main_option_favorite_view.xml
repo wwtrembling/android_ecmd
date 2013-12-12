@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff">
+
+	<RelativeLayout
+		android:id="@+id/option_favorite_rl1"
+		android:layout_above="@+id/option_favorite_rl2"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<ListView
+			android:id="@+id/option_favorite_lv1"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"></ListView>
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:id="@+id/option_favorite_rl2"
+		android:layout_height="70dp"
+		android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginTop="5dp">
+		<RelativeLayout
+			android:layout_centerInParent="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<Button
+				android:text="확인"
+				android:id="@+id/option_favorite_ok_btn"
+				android:layout_width="80dp"
+				android:layout_height="47dp"
+				android:layout_centerVertical="true"
+				android:layout_alignParentLeft="true"></Button>
+			<Button
+				android:text="취소"
+				android:id="@+id/option_favorite_no_btn"
+				android:layout_width="80dp"
+				android:layout_height="47dp"
+				android:layout_alignBaseline="@+id/option_favorite_ok_btn"
+				android:layout_alignBottom="@+id/option_favorite_ok_btn"
+				android:layout_toRightOf="@+id/option_favorite_ok_btn"
+				android:layout_marginLeft="14dp"></Button>
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>

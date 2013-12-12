@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff">
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<ScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView
+				android:id="@+id/text1"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical|center_horizontal"
+				android:textColor="#000000"
+				android:text="text" />
+		</ScrollView>
+
+	</RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/bottom_rel_bottom_btns"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true">
+		<Button
+			android:layout_width="100dp"
+			android:layout_alignParentBottom="true"
+			android:layout_toRightOf="@+id/Button1"
+			android:layout_height="wrap_content"
+			android:text="앱실행하기"
+			android:id="@+id/Button2"></Button>
+		<Button
+			android:layout_width="80dp"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true"
+			android:layout_height="wrap_content"
+			android:text="확인"
+			android:id="@+id/Button1"></Button>
+	</RelativeLayout>
+</RelativeLayout>

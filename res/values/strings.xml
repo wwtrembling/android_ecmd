@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ecmd</string>
+    <string name="title_activity_ecmd_main">Ecmd_main</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name_pop">ECMD 식단표</string>
+
+</resources>
